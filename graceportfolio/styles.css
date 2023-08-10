@@ -1,0 +1,171 @@
+/*for favicon*/
+.logo{
+    width: 44px;;
+    height: 32px;
+    size: 32px;
+    padding-left: 100px;
+}
+nav{
+display: inline;
+}
+/*for Body*/
+body {
+    background-color:rgb(15, 15, 15); /* Use the desired dark color */
+    padding-top: 43px;
+    font-family: 'Manrope', sans-serif;
+}
+  /*for Navigation*/
+   nav ul {
+    list-style: none;
+    text-align: center;
+    padding-right: 110px;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+  }
+nav ul li a{
+    display: inline;
+    margin-top: 47px;
+    width: 51px;
+    height: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+      }
+ nav ul li a:hover {
+     color: yellow;
+  }
+  .nav-container {
+    display: flex; /* Use flex layout */
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Distribute items along the main axis */
+  }
+  
+  .logo img {
+    width: 32px; /* Set the width of the icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between icon and navigation */
+  }
+  
+  .navigation {
+    list-style: none;
+    display: flex; /* Use flex layout */
+  }
+   
+    .navigation a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navigation a:hover {
+    text-decoration: none;
+  }
+  /* Apply general styling to navigation links */
+.navigation a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: rgb(206, 203, 203);
+}
+
+/* Style the last navigation link as a button */
+.button-link {
+  line-height: 10px;
+  background-color: rgb(175, 175, 5); /* Set your desired button color */
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+  
+}
+
+.button-link:hover {
+  background-color: black; /* Change background color on hover */
+}
+
+/*for Content Area*/
+.content {
+    display: flex; /* Use flex layout */
+    align-items: center; /* Vertically align items */
+    padding-top: 50px;
+    padding-right: 150px;
+
+   }
+    .content img {
+    max-width: 325px; /* Set a maximum width for the image */
+    margin-right: 100px; /* Add spacing between image and text */
+     }
+  
+  .content p {
+    flex: 1; /* Expand the paragraph to fill remaining space */
+  }
+  .head{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.75;
+  }
+  .color{
+    color: yellow;
+  }
+  /*seprarator*/
+  .separator {
+    border-top: 0.1px solid rgb(39, 39, 39, 10);
+    margin-top: 400px ;
+  }
+  /*About section*/
+  /* Style the "About" image */
+#about-section img {
+  width: 210px;;
+    height: 60px;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+/*for content*/
+.about{
+  display: flex; /* Use flex layout */
+  align-items: center; /* Vertically align items */
+  padding-top: 50px;
+  padding-right: 150px;
+}
+.about img{
+  max-width: 400px; /* Set a maximum width for the image */
+  padding-left: 100px; /* Add spacing between image and text */
+  padding-right: 100px;
+  line-height: 1.5;
+}
+.about-note{
+  color: grey;
+}
+.about{
+  flex: 1;
+}
+/*seprarator*/
+.separator {
+  border-top: 0.1px solid rgb(39, 39, 39, 10);
+  margin-top: 80px ;
+}
+/*Workflow section*/
+#workflow-section{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  width: 130px;
+  height: 28px;
+}
+/*styles for workflow*/
+.product {
+  position: relative; /* Create a positioning context for the helix icon */
+}
+
+.helix-icon {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+  position: absolute;
+  top: 50%; /* Center vertically */
+}
+
