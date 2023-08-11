@@ -1,24 +1,33 @@
+
 /*for favicon*/
 .logo{
     width: 44px;;
     height: 32px;
     size: 32px;
-    padding-left: 100px;
+    padding-left:105px;
 }
 nav{
 display: inline;
+}
+/*seprarator*/
+.separator {
+  border-top: 1px #252527;
+  margin-top: 80px ;
 }
 /*for Body*/
 body {
     background-color:rgb(15, 15, 15); /* Use the desired dark color */
     padding-top: 43px;
     font-family: 'Manrope', sans-serif;
+    padding-right: -100px;
+    justify-content: center;
+    
 }
   /*for Navigation*/
    nav ul {
     list-style: none;
     text-align: center;
-    padding-right: 110px;
+    padding-right: 90px;
   }
   
 nav ul li {
@@ -65,19 +74,25 @@ nav ul li a{
   }
   /* Apply general styling to navigation links */
 .navigation a {
-  margin-right: 15px;
+  margin-right: 20px;
   text-decoration: none;
-  color: rgb(206, 203, 203);
+  color: white;
+
 }
 
 /* Style the last navigation link as a button */
 .button-link {
-  line-height: 10px;
+  line-height: 9px;
   background-color: rgb(175, 175, 5); /* Set your desired button color */
-  padding: 10px 30px;
+  padding: 15px 30px;
+  align-content: center;
   border: none;
+  height: 15px;
   border-radius: 50px;
   transition: background-color 0.3s ease; /* Add a smooth transition */
+  margin-right: 10px;
+  margin-top: -8px;
+  
   
 }
 
@@ -90,16 +105,21 @@ nav ul li a{
     display: flex; /* Use flex layout */
     align-items: center; /* Vertically align items */
     padding-top: 50px;
-    padding-right: 150px;
+    padding-right: 275px;
+    padding-left: 50px;
+    justify-content: space-between; 
+    margin-right: 15px;
 
+    
    }
     .content img {
     max-width: 325px; /* Set a maximum width for the image */
-    margin-right: 100px; /* Add spacing between image and text */
+    right: 100px; /* Add spacing between image and text */
      }
   
   .content p {
     flex: 1; /* Expand the paragraph to fill remaining space */
+    margin-left: 50px;
   }
   .head{
     color: white;
@@ -110,11 +130,7 @@ nav ul li a{
   .color{
     color: yellow;
   }
-  /*seprarator*/
-  .separator {
-    border-top: 0.1px solid rgb(39, 39, 39, 10);
-    margin-top: 400px ;
-  }
+
   /*About section*/
   /* Style the "About" image */
 #about-section img {
@@ -137,15 +153,11 @@ nav ul li a{
   line-height: 1.5;
 }
 .about-note{
-  color: grey;
+  color: white;
+  padding-right: -50px;
 }
 .about{
   flex: 1;
-}
-/*seprarator*/
-.separator {
-  border-top: 0.1px solid rgb(39, 39, 39, 10);
-  margin-top: 80px ;
 }
 /*Workflow section*/
 #workflow-section{
@@ -155,26 +167,35 @@ nav ul li a{
   align-items: center;
   padding-top: 100px;
   width: 130px;
-  height: 28px;
+  height: 50%;
 }
 /*styles for workflow*/
 .product {
   position: relative; /* Create a positioning context for the helix icon */
 }
 
-.helix-icon {
-  width: 30px; /* Adjust the width as needed */
-  height: auto;
+
+.first{
+  position: relative;
+}
+.helixleft{
   position: absolute;
-  top: 50%; /* Center vertically */
+  left: 20px;
+}
+.left{
+  position: relative;
+}
+.helixright{
+  position: absolute;
+  right: 30px;
 }
 /*workflow blocks*/
 
 .box-grid {
   display: flex;
   padding-top: 100px;
-  margin-left: 100px;
-  margin-right: -100px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -189,11 +210,21 @@ nav ul li a{
   padding-left: 15px;
   border-radius: 24px;
   margin: 0 8px; /* Adjust the margin to reduce space between boxes */
+  z-index: 1;
 }
 .nav-con{
   display: flex; 
     align-items: center; 
     justify-content: space-between; 
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
+/*Section 4*/
+#case-section{
+  display: flex; /* Use flex layout */
+  align-items: center; /* Vertically align items */
+  padding-top: 70px;
+  width: 200px;
+  height: 50%;
+  margin-left: 90px;
+}
