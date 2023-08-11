@@ -5,6 +5,6 @@ The projeet consist of a navigation bar and a five section content. It is easily
 
 This is basically made up of just html and css. I used Visual Code Studio for writing my codes and google chrome as my search engine for viewing the webpage that was created. Github is where all my projects are stored and lastly notepaad to take down important pointd from learning.
 
-To view projects on the internet, first open a search engine and then type https://emamoke.github.io/np_internship/graceportfolio/(My first internship project)
+To view projects on the internet, first open a search engine and then type https://emamoke.github.io/np_internship/graceportfolio/ (My first internship project)
 
 
