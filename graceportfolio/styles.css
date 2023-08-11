@@ -168,4 +168,32 @@ nav ul li a{
   position: absolute;
   top: 50%; /* Center vertically */
 }
+/*workflow blocks*/
+
+.box-grid {
+  display: flex;
+  padding-top: 100px;
+  margin-left: 100px;
+  margin-right: -100px;
+}
+
+.box {
+  flex: 0.22; /* Distribute available space equally among boxes */
+  height: 50px;
+  background-color:#17181E;
+  color: #fff;
+  text-align: justify;
+  padding-top: 20px;
+  width: 400px;
+  height: 280px;
+  padding-left: 15px;
+  border-radius: 24px;
+  margin: 0 8px; /* Adjust the margin to reduce space between boxes */
+}
+.nav-con{
+  display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin-right: 10px;
+}
 
