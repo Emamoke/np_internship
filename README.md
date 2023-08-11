@@ -1,5 +1,5 @@
 # np_internship/grace portfolio
-This project is all about the use of html and css to vrate a responsive webpage. A portfolio is a summary of a person's career. So as an Intern I am practicing programming by creating a portfolio from a figma design.
+This project is all about the use of html and css to create a responsive webpage. A portfolio is a summary of a person's career. So as an Intern I am practicing programming by creating a portfolio from a figma design.
 
 The projeet consist of a navigation bar and a five section content. It is easily accessible and provides a better way of presenting a personal career summary in details.
 
