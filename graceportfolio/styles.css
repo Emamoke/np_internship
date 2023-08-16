@@ -1,33 +1,20 @@
-@media only screen and (max-width: 768px){
-  
-  .button-link {
-    line-height: 9px;
-    background-color: rgb(175, 175, 5); /* Set your desired button color */
-    padding: 2px 2px;
-    border-radius: 60px;
-    margin-right: a
-    ;
-    width: 130px;
-    }
-    .content {
-      display: flex;
-      align-items: center; /* Vertically center content */
-      width: 100%;
-    }
-    .box-grid {
-      flex-direction: column;
-      padding: 20px 0;
-      margin-bottom: 50px;
-    }
-    
-  }
-@media only screen and (min-width: 1200px) {}
 /*for favicon*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  margin-top: 0;
+  background-color: rgb(15, 15, 15);
+  background-size: 30px; /* Set your header background color */
+  z-index: 100; /* Make sure it's above other content */
+}
 .logo{
-  width: 44px;;
-  height: 32px;
-  size: 32px;
-  padding-left:130px;
+  width: 34px;;
+  height: 27px;
+  size: 27px;
+  padding-left:140px;
 }
 nav{
 display: inline;
@@ -35,14 +22,14 @@ display: inline;
 /*seprarator*/
 .separator {
 border-top: 1px #252527;
-margin-top: 80px ;
+margin-top: 80px;
 }
 /*for Body*/
 body {
   background-color:rgb(15, 15, 15); /* Use the desired dark color */
   padding-top: 43px;
   font-family: 'Manrope', sans-serif;
-  padding-right: -100px;
+  padding-right: auto;
   justify-content: center;
   
 }
@@ -50,12 +37,13 @@ body {
  nav ul {
   list-style: none;
   text-align: center;
-  padding-right: 70px;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
 nav ul li {
   display: inline-block;
-  margin-right: 70px;
+  margin-right: 80px;
 }
 nav ul li a{
   display: inline;
@@ -77,43 +65,90 @@ nav ul li a:hover {
 }
 
 .logo img {
-  width: 32px; /* Set the width of the icon */
-  height: auto; /* Maintain aspect ratio */
-  margin-right: 10px; /* Add spacing between icon and navigation */
+  width: 40px;
+  height: 27px;
+  size: 32px;
+  padding-left: auto;
 }
 
-.navigation {
+.nav-list {
   list-style: none;
   display: flex; /* Use flex layout */
 }
+.nav-list li {
+  margin: 0 20px;
+}
  
-  .navigation a {
+  .nav-list a {
   text-decoration: none;
   color: #fff;
 }
 
-.navigation a:hover {
+.nav-list a:hover {
   text-decoration: none;
 }
 /* Apply general styling to navigation links */
-.navigation a {
+.nav-list1 a {
 margin-right: 20px;
 text-decoration: none;
 color: white;
 }
+.nav-list1 {
+  list-style: none;
+  display: flex; /* Use flex layout */
+}
+.nav-list1 li {
+  margin: 0 20px;
+}
+ 
+  .nav-list1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-list1 a:hover {
+  text-decoration: none;
+}
+.nav-list1 a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  }
+  /* Hamburger Menu Icon Styles */
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    margin-right: 7px;
+  }
+  .close-icon {
+    display: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .close-icon img {
+    width: 20px;
+    height: 20px;
+  }
 
 /* Style the last navigation link as a button */
 .button-link {
-line-height: 9px;
+line-height: 0;
 background-color: rgb(175, 175, 5); /* Set your desired button color */
-padding: 15px 30px;
-align-content: center;
+padding: 20px 30px;
+/* align-content: center; */
 border: none;
-height: 15px;
-border-radius: 20px;
-transition: background-color 0.3s ease; /* Add a smooth transition */
-margin-right: 10px;
-margin-top: -8px;
+height: 10px;
+border-radius: 30px;
+transition: background-color 0.3s ease; /* Add a smooth transition *
 }
 
 .button-link:hover {
@@ -126,15 +161,14 @@ background-color: #17181E; /* Change background color on hover */
   align-items: center; /* Vertically align items */
   padding-top: 50px;
   padding-right: 200px;
-  padding-left: 80px;
+  padding-left: 100px;
   justify-content: space-between; 
-  margin-right: 18px;
-
-  
+  margin-right: 18px;  
  }
   .content img {
-  max-width: 420px; /* Set a maximum width for the image */
+  max-width: 400px; /* Set a maximum width for the image */
   right: 120px; /* Add spacing between image and text */
+  float: right;
    }
 
 .content p {
@@ -156,7 +190,7 @@ background-color: #17181E; /* Change background color on hover */
 #about-section img {
 width: 210px;;
   height: 60px;
-  margin-top: 50px;
+  margin-top: 60px;
   padding-left: 110px;
 }
 /*for content*/
@@ -167,7 +201,7 @@ padding-top: 10px;
 padding-right: 70px;
 }
 .about img{
-max-width: 520px; /* Set a maximum width for the image */
+max-width: 480px; /* Set a maximum width for the image */
 padding-left: 100px; /* Add spacing between image and text */
 padding-right: 5px;
 }
@@ -184,7 +218,7 @@ margin: auto;
 display: flex;
 justify-content: center;
 align-items: center;
-padding-top: 100px;
+padding-top: 5px;
 width: 130px;
 height: 50%;
 }
@@ -247,6 +281,7 @@ padding: 50px;
 width: 200px;
 height: 50%;
 margin-left: 50px;
+margin-top: 30px;
 padding-left: 40px;
 }
 .image-grid {
@@ -272,6 +307,9 @@ padding-left: 40px;
   text-align: center;
   padding: 30px;
 }
+.gmail{
+  color: white;
+}
 /*Footer Section*/
 .nav-contain{
   display: flex; /* Use flex layout */
@@ -283,4 +321,253 @@ padding-left: 40px;
 .container1{
   color: #fff;
   padding-left: 85px;
+}
+
+
+#content-section {
+  padding-left: 700px;
+  opacity: 40%;
+  margin-top: 30px;
+}
+.image-with-shape1 {
+  padding-left: 100px;
+  opacity: 40%;
+}
+.image-with-shape2 {
+  padding-left: 1000px;
+  opacity: 40%;
+  margin-top: 40px;
+}
+.image-with-shape5 {
+  padding-left: 900px;
+  opacity: 40%;
+  margin-top: 40px;
+}
+.image-with-shape4 {
+  padding-left: 1200px;
+  opacity: 40%;
+  margin-top: 40px;
+}
+.image-with-shape6 {
+  opacity: 40%;
+}
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+  .separator {
+    border-top: 1px #252527;
+    margin-top: 30px;
+    }
+  .logo{
+    width: 30px;;
+    height: 20px;
+    size: 20px;
+    padding-left:5px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .close-icon {
+    display:none;
+    padding: 30px 0 0 330px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px); /* Apply blur effect */
+    z-index: 1;
+  }
+  
+  .nav-list.active + .overlay {
+    display: block;
+  }
+
+
+
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    /* background-color: rgb(15, 15, 15); */
+    width: 100%;
+    height: 100px;
+    top: 0; /* Adjust this value */
+    left: 0;
+    z-index: 2;
+  }
+  #Dropdown{
+    width: 87.5%;
+    background-color:black;
+    min-height: 600px;
+    padding: 20px o 0 40px;
+  }
+  #Dropdown li {
+    display: block;
+    padding: 20px;
+    text-align: left;
+  }
+  .button-link {
+    display: inline-block;
+    margin: 20px 20px 20px 0 ; 
+    width: 220px;
+    /* float: left;*/
+    height: 50px;
+    }
+    .button-link a {
+      text-align: center;
+      padding: 10px;
+      font-size: 1.5em;
+    }
+    .nav-list.active {
+      display: flex;
+    }
+    #content-section {
+      padding-left: 300px;
+      margin-top: 0;
+    }
+    .content {
+      display: block; /* Use flex layout */
+      align-items: center; /* Vertically align items */
+      padding-top: 10px;
+      padding-right: 0;
+      padding-left: 5px;
+      margin-right: 0;  
+      font-size: 15px;
+     }
+      .content img {
+      display: none;
+       }
+       #about-section img {
+        width: 190px;;
+          height: 50px;
+          margin-top: 35px;
+          padding-left: 5px;
+        }
+       .about{
+        display: block;
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+        }
+        .about img{
+        max-width: 100%; /* Set a maximum width for the image */
+        padding-left: 0;
+        }
+        .about-note{
+        color: white;
+        padding-left: 0;
+        font-size: 15px;
+        text-align: left;
+        margin-left: 30px;
+        }
+        .image-with-shape2 {
+          padding-left: 400px;
+          opacity: 40%;
+        }
+        #workflow-section{
+          padding-top: 10px;
+          height: 5px;
+          padding-left: 30px;
+          }
+          /*styles for workflow*/
+          .product {
+          position: relative; /* Create a positioning context for the helix icon */
+          }
+          .helixleft{
+          display: none;
+          }
+          .helixright{
+          display: none;
+          }
+          /*workflow blocks*/
+          
+          .box-grid {
+          display: block;
+          padding-left: 30px;
+          }
+          
+          .box {
+          height: 50px;
+          background-color:#17181E;
+          color: #fff;
+          text-align: center;
+          padding-top: 20px;
+          width: 85%;
+          height: 320px;
+          margin-bottom: 30px;
+        }
+        .text{
+          font-size: 18px;
+        }
+        #case-section{
+          display: block; /* Use flex layout */
+          padding: 0;
+          width: 150px;
+          height: 10px;
+          margin-left: 60px;
+          margin-top: 50px;
+          margin-bottom: 10px;
+          }
+          .image-grid {
+            display: block;
+            grid-template-columns: repeat(2, 1fr); /* Two columns */
+            grid-gap: 5px; /* Gap between images */
+            margin: 30px 0px 0px 0px;
+          width: 100%;
+          }
+          
+          .image {
+         width: 100%;
+         padding-left: 0;
+          }
+          
+          .image img {
+            max-width: 100%;
+          }
+          
+          .image-with-shape4 {
+            padding-left: 50px;
+            margin-top: 20px;
+          }
+          .image-with-shape6 {
+            padding-left: 400px;
+            opacity: 40%;
+            margin-top: 40px;
+          }
+          .image-with-shape5 {
+            padding-left: 200px;
+            margin-top: 20px;
+            margin-bottom: 0;
+          }
+          .nav-contain{
+            display: flex; /* Use flex layout */
+            align-items: center; /* Vertically align items */
+            justify-content: space-between; /* Distribute items along the main axis */
+            margin-top: 50px;
+            margin-bottom: 50px;
+          }
+        .nav-contain{
+          display: block;
+        }
+        .container1{
+        text-align: center;
+        margin-right: 50px;
+        font-size: 15px;
+        }
+        .nav-list1{
+          display: block;
+          margin-left: 60px;
+        }
+}
+/* Media Query for Small Screens */
+@media (min-width:769) and (max-width: 1200px) {
+
 }

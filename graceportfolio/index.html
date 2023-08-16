@@ -8,39 +8,54 @@
       @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap');
     </style>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
  <!--Section1-->
-      <header>
     <!-- Navigation Bar -->
-    <header>
-      <nav>
-        <div class="nav-container">
+    <header class="header">
+      <nav class="nav-container">
           <div class="logo">
             <img src="images/GA1.png" alt="Icon">
           </div>
-      <ul class="navigation">
-        <li><a href="#Home" class="head">Home</a></li>
-        <li><a href="#about-section" class="about-link">About</a></li>
-        <li><a href="#Resume">Resume</a></li>
-        <li class="button-link"><a href="#case-section">Case studies</a></li>
+          <div class="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+      <ul class="nav-list">
+        <div id="Dropdown">
+          <div class="close-icon">
+            <img src="images/Exit.png" alt="Close Menu">
+          </div>
+          <li><a href="#content-section" class="head">Home</a></li>
+          <li><a href="#separator1" class="about-link">About</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><button class="button-link"><a href="#separator3">Case studies</a></button></li>
       </ul>
-      </div>
+    </div>
     </nav>
+    <div class="overlay"></div>
   </header>
+  
   <!--content Area-->
+  <section id="content-section">
+      <img src="images/Vector.png" alt="Your Image">
+  </section>
   <div class="content">
     <p>
         <h1 class="head">Hi👋 <br>
             I am Grace Akpoiroro,<br>
-            a <span class="color">Product Designer</span> . I ,love to<br>
+            a <span class="color">Product Designer</span>. I love to<br>
             create impactful, accessible and <br>
             human-centered designs.
         </h1>
       </p>
       <img src="images/image.png" alt="Image">
   </div>
-  <hr class="separator">
+  <div class="image-with-shape1">
+    <img src="images/Polygon 3.png" alt="Your Image">
+  </div>
+  <section id="separator1"><hr class="separator"></section>
   <!--Section2-->
 <section id="about-section">
   <img src="images/About.png" alt="About">
@@ -64,9 +79,12 @@
   </p>
 </div>
 
-<hr class="separator">
+<section id="separator1"><hr class="separator"></section>
 
 <!--Section 3-->
+<div class="image-with-shape2">
+  <img src="images/Vector.png" alt="Your Image">
+</div>
 <section id="workflow-section">
   <img src="images/workflow.png" alt="workflow">
 </section>
@@ -164,46 +182,58 @@
   </div>
   <img src="images/Decore (1).png" alt="helix" class="helixright">
 </div>
-<hr class="separator">
+<section id="separator3"><hr class="separator"></section>
 
 <!--Section 4-->
 <section id="case-section">
   <img src="images/casestudy.png" alt="casestudy">
 </section>
+<div class="image-with-shape">
+  <img src="images/Ellipse 45.png" alt="Your Image">
+</div>
 <div class="image-grid">
   <div class="image image1"><img src="images/Frame 1.png" alt="Image 1"></div>
   <div class="image image2"><img src="images/Frame 6.png" alt="Image 2"></div>
   <div class="image image3"><img src="images/Frame 9.png" alt="Image 3"></div>
 </div>
+<div class="image-with-shape4">
+  <img src="images/Polygon 3.png" alt="Your Image">
+</div>
+<section id="separator1"><hr class="separator"></section>
 
-<hr class="separator">
 <!--Section 5-->
+<div class="image-with-shape6">
+  <img src="images/Vector.png" alt="Your Image">
+</div>
+
 <section id="workflow-section">
   <img src="images/connect.png" alt="connect">
 </section>
 
 <div class="connect">
   <p>
-    <h4>Feel free to reach out for collaboration or hust say "Hi"😃</i></h4>
+    <h4>Feel free to reach out for collaboration or just say "Hi"😃</i></h4>
   </p>
   <p>
-    <h3>graciahills17@gmail.com</h3>
+    <h3><a href="gmail.com" class="gmail">graciahills17@gmail.com</a></h3>
   </p>
 </div>
-<hr class="separator">
+<section id="separator1"><hr class="separator"></section>
 <!--Section 6-->
 <footer>
-  <nav>
-    <div class="nav-contain">
+  <div class="image-with-shape5">
+    <img src="images/Ellipse 45.png" alt="Your Image">
+  </div>
+  <nav class="nav-contain">
       <div class="container1">
         <h4><p>&copy 2022 Grace Akpoiroro</p></h4> 
        </div>
-  <ul class="navigation">
-    <li class="button-link"><a href="#linkedln">Linkedln</a></li>
-    <li class="button-link"><a href="#Bahance">Bahance</a></li>
+  <ul class="nav-list1">
+    <li><button class="button-link"><a href="https://www.linkedin.com/in/graceakpoiroro/">Linkedln</a></button></li>
+    <li><button class="button-link"><a href="#Bahance">Bahance</a></button></li>
+  </footer>
   </ul>
-    </div>
   </nav>
-</footer>
+
 </body>
 </html>
