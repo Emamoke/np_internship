@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 9%;
+  height: 65px;
   margin-top: 0;
   padding-top: 10px;
   background-color: rgb(15, 15, 15);
@@ -162,7 +162,7 @@ color: gold;
   display: flex; /* Use flex layout */
   align-items: center; /* Vertically align items */
   padding-top: 50px;
-  margin-left: -140px;
+  margin-left: -160px;
  }
   .content img {
   max-width: 400px; /* Set a maximum width for the image */
@@ -175,7 +175,7 @@ color: gold;
 .content p {
   flex: 1; /* Expand the paragraph to fill remaining space */
   margin-left: 0px;
-  padding-left: 50px;
+  font-size: 20px;
 }
 .head{
   color: white;
@@ -210,6 +210,8 @@ padding-right: 5px;
 .about-note{
 color: white;
 padding-left: 200px;
+font-size: 17px;
+text-align: left;
 }
 .about{
 flex: 1;
@@ -320,7 +322,9 @@ padding-left: 40px;
 }
 .container1{
   color: #fff;
-  padding-left: 85px;
+  padding-left: 0;
+  margin-left: 80px;
+ 
 }
 
 
@@ -353,6 +357,7 @@ padding-left: 40px;
 }
 /* Media Query for Small Screens */
 @media (min-width: 378px) and (max-width: 768px) {
+
   body {
     font-size: 16px; /* Adjust font size for this range */
     margin: 20px;    /* Adjust margin for this range */
@@ -370,11 +375,11 @@ padding-left: 40px;
   }
   .menu-icon {
     display: block;
-    margin-right: 30px;
+    margin-right: 300px;
   }
   .close-icon {
     display:none;
-    padding: 30px 0 0 330px;
+    padding: 30px 0 0 0;
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -404,16 +409,16 @@ padding-left: 40px;
     position: absolute;
     /* background-color: rgb(15, 15, 15); */
     width: 100%;
-    height: 100px;
+    height: 200px;
     top: 0; /* Adjust this value */
     left: 0;
     z-index: 2;
   }
   #Dropdown{
-    width: 87.5%;
+    width: 80%;
     background-color:black;
     min-height: 600px;
-    padding: 20px o 0 40px;
+    padding: 20px 0 0 0;
   }
   #Dropdown li {
     display: block;
@@ -438,14 +443,19 @@ padding-left: 40px;
     #content-section {
       padding-left: 300px;
       margin-top: 0;
+      width: 100%;
     }
     .content {
       display: block; /* Use flex layout */
       align-items: center; /* Vertically align items */
       padding-top: 30px;
       margin-left: 10px;
-      font-size: 13px;
+      font-size: 10px;
      }
+     .content p {
+     width: 100%;
+     line-height: 60px;
+    }
       .content img {
       display: none;
        }
@@ -470,24 +480,21 @@ padding-left: 40px;
         .about-note{
         color: white;
         padding-left: 0;
-        font-size: 15px;
-        text-align: left;
-        margin-left: 30px;
+        font-size: 12.3px;
+        line-height: 25px;
+        margin: 0;
+        width: 100%;
         }
         .image-with-shape2 {
-          padding-left: 400px;
+          padding-left: 300px;
           opacity: 40%;
         }
         #workflow-section img{
           width: 251px;;
-          height: 55px;
+          height: 52px;
           padding-left: 30px;
           margin-left: 20px;
           padding-right: 30px
-          }
-          /*styles for workflow*/
-          .product {
-          position: relative; /* Create a positioning context for the helix icon */
           }
           .helixleft{
           display: none;
@@ -499,7 +506,7 @@ padding-left: 40px;
           
           .box-grid {
           display: block;
-          padding-left: 30px;
+          padding-left: 15px;
           }
           
           .box {
@@ -513,7 +520,7 @@ padding-left: 40px;
           margin-bottom: 30px;
         }
         .text{
-          font-size: 18px;
+          font-size: 16px;
         }
         #case-section img{
             width: 250px;;
@@ -524,7 +531,7 @@ padding-left: 40px;
             display: block;
             grid-template-columns: repeat(2, 1fr); /* Two columns */
             grid-gap: 5px; /* Gap between images */
-            margin-left: 20px;
+            margin-left: 19px;
           width: 90%;
           margin-top: 10px;
           }
@@ -543,22 +550,24 @@ padding-left: 40px;
             margin-top: 20px;
           }
           .image-with-shape6 {
-            padding-left: 400px;
+            padding-left: 300px;
             opacity: 40%;
             margin-top: 40px;
           }
           .image-with-shape5 {
-            padding-left: 200px;
+            padding-left: 170px;
             margin-top: 20px;
             margin-bottom: 0;
           }
           .connect{
-            font-size: 12.5px;
-            padding: 30px;
+            font-size: 16px;
+            padding: 0;
+            width: 100%;
             
           }
           .gmail{
             color: white;
+            padding-left: 0px;
           }
           .nav-contain{
             display: flex; /* Use flex layout */
@@ -569,15 +578,18 @@ padding-left: 40px;
           }
         .nav-contain{
           display: block;
+          margin: 0;
         }
         .container1{
+        font-size: 16px;
+        width: 100%;
         text-align: center;
-        margin-right: 70px;
-        font-size: 11px;
+        margin-left: 0;
         }
         .nav-list1{
           display: block;
-          margin-left:25px;
+         padding-left: 46px;
+         width: auto;
         }
 }
 /* Media Query for Small Screens */
